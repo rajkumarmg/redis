@@ -222,6 +222,21 @@ Output:
 PONG
 ```
 
+
+Install and start redis on **windows machine**
+```
+Download redis on windows from: https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100
+```
+
+- After successfully installing the redis server as service please open redis.windows-service.conf and search for requirepass and set the password.
+
+```
+requirepass <new password within double quotes>
+```
+
+- Note the # infront of requirepass is removed.
+
+
 To be continued...
 
 - Video on how to install and access redis on azure vm: https://www.youtube.com/watch?v=OPWYgy_ZvjA
